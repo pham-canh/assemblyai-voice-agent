@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.ics
+__pycache__/
+.pytest_cache/
+data/
+bookings.json
+audit.log
+.test_state_tmp/
+out/
+.DS_Store
