@@ -9,7 +9,6 @@ Speak to book your clinic visit: listen → confirm aloud → book, with per-sta
 
 ## Video
 
-- Demo video (YouTube, unlisted): `TODO-paste-link`
 - 90-second script: `demo/demo-script.md`
 
 ## Architecture
@@ -47,7 +46,7 @@ The model never books by itself — code writes only after a strict YES.
 ## Run locally
 
 ```bash
-git clone <your-public-repo-url> assemblyai-voice-agent
+git clone https://github.com/pham-canh/assemblyai-voice-agent.git assemblyai-voice-agent
 cd assemblyai-voice-agent
 pip install -r requirements.txt
 cp .env.example .env   # then fill your keys
