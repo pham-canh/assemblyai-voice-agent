@@ -2,6 +2,10 @@
 
 Speak to book your clinic visit: listen → confirm aloud → book, with per-stage latency in ms.
 
+**Event:** [AssemblyAI Voice Agent Hackathon](https://lablab.ai) (lablab.ai, September 2026) — completed entry.
+This is a separate competition from [`voicecare-scheduler`](https://github.com/pham-canh/voicecare-scheduler),
+which is the Nebius x NVIDIA Global AI Hackathon entry.
+
 ## Demo
 
 - Live demo: `https://voicecare-scheduler-lmzkozkdf4rssh4w6vz8p6.streamlit.app/`
