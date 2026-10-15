@@ -275,7 +275,7 @@ def main():
         r = ask_once(text="I'd like to book a cardiology appointment tomorrow morning")
         print(r.get("reply",""), "|", r.get("total_ms"), "ms")
         return
-    st.set_page_config(page_title="VoiceCare — voice clinic booking")
+    st.set_page_config(page_title="AssemblyAI Voice Agent — voice clinic booking")
     st.markdown("<style>html{font-size:19px} .stButton>button{font-size:1.15rem;padding:.6rem 1.1rem;border-radius:12px}</style>",
                 unsafe_allow_html=True)
     try:
@@ -288,7 +288,7 @@ def main():
     except Exception:
         pass
     init_state()
-    st.title("VoiceCare")
+    st.title("AssemblyAI Voice Agent")
     st.subheader("Voice-first Clinic Scheduling")
     st.caption("Speak. I listen. I check. You confirm. · English-only · AssemblyAI + Gemini")
 
