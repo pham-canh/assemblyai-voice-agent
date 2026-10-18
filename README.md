@@ -49,9 +49,13 @@ The model never books by itself — code writes only after a strict YES.
 
 ## Run locally
 
+**Python 3.11 or newer** — CI runs 3.11, and the code uses PEP 604 unions
+(`bytes | None`), which is a 3.10+ syntax and fails to parse on anything older.
+
 ```bash
 git clone https://github.com/pham-canh/assemblyai-voice-agent.git assemblyai-voice-agent
 cd assemblyai-voice-agent
+python3 -m venv .venv && source .venv/bin/activate   # .venv/ is gitignored
 pip install -r requirements.txt
 cp .env.example .env   # then fill your keys
 echo "[]" > data/bookings.json

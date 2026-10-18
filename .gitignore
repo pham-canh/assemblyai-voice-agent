@@ -8,6 +8,8 @@
 *.ics
 __pycache__/
 .pytest_cache/
+.venv/
+venv/
 data/
 bookings.json
 audit.log
